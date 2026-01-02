@@ -1,0 +1,31 @@
+#!/bin/sh 
+
+choice=$(printf " Back\n Autostart\n󰌌 Keybinds\n Environment\n󰍽 Input\n󰍄 Look & Feel\n󰖯 Windowrules\n Vars" | rofi -dmenu -p "")
+
+case "$choice" in
+    " Back")
+        sh "$HOME"/.bin/settingsMenu
+        ;;
+    " Autostart")
+        kitty -e nvim "$HOME"/.config/hypr/conf/autostart.conf
+        ;;
+    "󰌌 Keybinds")
+        kitty -e nvim "$HOME"/.config/hypr/conf/keybinds.conf
+        ;;
+    " Environment")
+        kitty -e nvim "$HOME"/.config/hypr/conf/env.conf
+        ;;
+    "󰍽 Input")
+        kitty -e nvim "$HOME"/.config/hypr/conf/input.conf
+        ;;
+    "󰍄 Look & Feel")
+        kitty -e nvim "$HOME"/.config/hypr/conf/looknfeel.conf
+        ;;
+    "󰖯 Windowrules")
+        kitty -e nvim "$HOME"/.config/hypr/conf/windowrules.conf
+        ;;
+    " Vars")
+        kitty -e nvim "$HOME"/.config/hypr/conf/vars.conf
+        ;;
+    *)
+esac

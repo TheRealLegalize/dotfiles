@@ -1,0 +1,25 @@
+#!/bin/bash 
+
+choice=$(printf " Back\n󰏕 Install\n󰏕 AUR Install\n󰏔 Uninstall\n󰏓 Purge\n󰚰 Update" | rofi -dmenu -p "")
+
+case "$choice" in
+    " Back")
+        sh "$HOME"/.bin/mainMenu
+        ;;
+    "󰏕 Install")
+        kitty -T "floatterminal" -e sh "$HOME"/.bin/pkgInstall
+        ;;
+    "󰏕 AUR Install")
+        kitty -T "floatterminal" -e sh "$HOME"/.bin/pkgInstallAur
+        ;;
+    "󰏔 Uninstall")
+        kitty -T "floatterminal" -e sh "$HOME"/.bin/pkgRemove 
+        ;;
+    "󰏓 Purge")
+        kitty -T "floatterminal" -e sh "$HOME"/.bin/pkgPurge 
+        ;;
+    "󰚰 Update")
+        kitty -T "floatterminal" -e sh "$HOME"/.bin/pkgUpdate
+        ;;
+    *)
+esac

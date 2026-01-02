@@ -1,0 +1,114 @@
+12/30/2025, 5:42:12 PM GMT+3 0: 
+
+----------------------------------------------
+12/30/2025, 5:42:12 PM GMT+3 1: Discord starting: {"releaseChannel":"stable","version":"0.0.119"}, modulepath: /home/user/.config/discord/0.0.119/modules
+12/30/2025, 5:42:12 PM GMT+3 2: ✅ webContents.created web1 ""
+12/30/2025, 5:42:12 PM GMT+3 3: ✅ window.created win1 "discord"
+12/30/2025, 5:42:12 PM GMT+3 4: ✅ webContents.did-finish-load web1
+12/30/2025, 5:42:20 PM GMT+3 5: ✅ webContents.created web2 ""
+12/30/2025, 5:42:20 PM GMT+3 6: ✅ window.created win2 "Discord"
+12/30/2025, 5:42:21 PM GMT+3 7: ✅ webContents.did-finish-load web2
+12/30/2025, 5:42:22 PM GMT+3 8: window.close win1
+12/30/2025, 5:42:22 PM GMT+3 9: webContents.destroyed web1
+12/30/2025, 5:42:22 PM GMT+3 10: window.closed win1
+12/30/2025, 6:01:50 PM GMT+3 11: window.close win2
+12/30/2025, 6:01:58 PM GMT+3 12: before-quit
+12/30/2025, 6:01:58 PM GMT+3 13: window.close win2
+12/30/2025, 6:01:58 PM GMT+3 14: webContents.destroyed web2
+12/30/2025, 6:22:53 PM GMT+3 0: 
+
+----------------------------------------------
+12/30/2025, 6:22:53 PM GMT+3 1: Discord starting: {"releaseChannel":"stable","version":"0.0.119"}, modulepath: /home/user/.config/discord/0.0.119/modules
+12/30/2025, 6:22:53 PM GMT+3 2: ✅ webContents.created web1 ""
+12/30/2025, 6:22:53 PM GMT+3 3: ✅ window.created win1 "discord"
+12/30/2025, 6:22:53 PM GMT+3 4: ✅ webContents.did-finish-load web1
+12/30/2025, 6:22:53 PM GMT+3 5: ✅ webContents.created web2 ""
+12/30/2025, 6:22:53 PM GMT+3 6: ✅ window.created win2 "Discord"
+12/30/2025, 6:22:55 PM GMT+3 7: ✅ webContents.did-finish-load web2
+12/30/2025, 6:22:56 PM GMT+3 8: window.close win1
+12/30/2025, 6:22:56 PM GMT+3 9: webContents.destroyed web1
+12/30/2025, 6:22:56 PM GMT+3 10: window.closed win1
+12/30/2025, 6:22:58 PM GMT+3 11: ✅ webContents.did-finish-load web2
+12/30/2025, 7:02:26 PM GMT+3 12: ✅ webContents.created web3 ""
+12/30/2025, 7:02:26 PM GMT+3 13: ✅ window.created win3 "Vencord QuickCSS Editor"
+12/30/2025, 7:02:27 PM GMT+3 14: ✅ webContents.did-finish-load web3
+12/30/2025, 7:02:31 PM GMT+3 15: window.close win3
+12/30/2025, 7:02:31 PM GMT+3 16: webContents.destroyed web3
+12/30/2025, 7:02:31 PM GMT+3 17: window.closed win3
+12/30/2025, 7:37:34 PM GMT+3 18: window.close win2
+12/30/2025, 7:41:28 PM GMT+3 0: 
+
+----------------------------------------------
+12/30/2025, 7:41:28 PM GMT+3 1: Discord starting: {"releaseChannel":"stable","version":"0.0.119"}, modulepath: /home/user/.config/discord/0.0.119/modules
+12/30/2025, 7:55:17 PM GMT+3 19: window.close win2
+12/30/2025, 7:56:27 PM GMT+3 20: before-quit
+12/30/2025, 7:56:27 PM GMT+3 21: window.close win2
+12/30/2025, 7:56:27 PM GMT+3 22: webContents.destroyed web2
+12/30/2025, 7:56:27 PM GMT+3 23: window.closed win2
+12/30/2025, 9:22:08 PM GMT+3 0: 
+
+----------------------------------------------
+12/30/2025, 9:22:08 PM GMT+3 1: Discord starting: {"releaseChannel":"stable","version":"0.0.119"}, modulepath: /home/user/.config/discord/0.0.119/modules
+12/30/2025, 9:22:08 PM GMT+3 2: ✅ webContents.created web1 ""
+12/30/2025, 9:22:08 PM GMT+3 3: ✅ window.created win1 "discord"
+12/30/2025, 9:22:08 PM GMT+3 4: ✅ webContents.did-finish-load web1
+12/30/2025, 9:22:09 PM GMT+3 5: ✅ webContents.created web2 ""
+12/30/2025, 9:22:09 PM GMT+3 6: ✅ window.created win2 "Discord"
+12/30/2025, 9:22:11 PM GMT+3 7: window.close win1
+12/30/2025, 9:22:11 PM GMT+3 8: webContents.destroyed web1
+12/30/2025, 9:22:11 PM GMT+3 9: window.closed win1
+12/30/2025, 9:22:12 PM GMT+3 10: ✅ webContents.did-finish-load web2
+12/30/2025, 10:25:06 PM GMT+3 11: window.close win2
+12/30/2025, 10:25:08 PM GMT+3 12: before-quit
+12/30/2025, 10:25:08 PM GMT+3 13: window.close win2
+12/30/2025, 10:25:08 PM GMT+3 14: webContents.destroyed web2
+12/30/2025, 10:25:08 PM GMT+3 15: window.closed win2
+1/1/2026, 12:23:15 AM GMT+3 0: 
+
+----------------------------------------------
+1/1/2026, 12:23:15 AM GMT+3 1: Discord starting: {"releaseChannel":"stable","version":"0.0.119"}, modulepath: /home/user/.config/discord/0.0.119/modules
+1/1/2026, 12:23:15 AM GMT+3 2: ✅ webContents.created web1 ""
+1/1/2026, 12:23:15 AM GMT+3 3: ✅ window.created win1 "discord"
+1/1/2026, 12:23:15 AM GMT+3 4: ✅ webContents.did-finish-load web1
+1/1/2026, 12:23:16 AM GMT+3 5: ✅ webContents.created web2 ""
+1/1/2026, 12:23:16 AM GMT+3 6: ✅ window.created win2 "Discord"
+1/1/2026, 12:23:18 AM GMT+3 7: window.close win1
+1/1/2026, 12:23:18 AM GMT+3 8: webContents.destroyed web1
+1/1/2026, 12:23:18 AM GMT+3 9: window.closed win1
+1/1/2026, 12:23:19 AM GMT+3 10: ✅ webContents.did-finish-load web2
+1/1/2026, 1:44:40 AM GMT+3 11: window.close win2
+1/1/2026, 1:44:44 AM GMT+3 12: before-quit
+1/1/2026, 7:40:53 PM GMT+3 0: 
+
+----------------------------------------------
+1/1/2026, 7:40:53 PM GMT+3 1: Discord starting: {"releaseChannel":"stable","version":"0.0.119"}, modulepath: /home/user/.config/discord/0.0.119/modules
+1/1/2026, 7:40:53 PM GMT+3 2: ✅ webContents.created web1 ""
+1/1/2026, 7:40:53 PM GMT+3 3: ✅ window.created win1 "discord"
+1/1/2026, 7:40:53 PM GMT+3 4: ✅ webContents.did-finish-load web1
+1/1/2026, 7:40:54 PM GMT+3 5: ✅ webContents.created web2 ""
+1/1/2026, 7:40:54 PM GMT+3 6: ✅ window.created win2 "Discord"
+1/1/2026, 7:40:57 PM GMT+3 7: window.close win1
+1/1/2026, 7:40:57 PM GMT+3 8: webContents.destroyed web1
+1/1/2026, 7:40:57 PM GMT+3 9: window.closed win1
+1/1/2026, 7:40:59 PM GMT+3 10: ✅ webContents.did-finish-load web2
+1/1/2026, 8:01:28 PM GMT+3 11: window.close win2
+1/1/2026, 8:23:15 PM GMT+3 0: 
+
+----------------------------------------------
+1/1/2026, 8:23:15 PM GMT+3 1: Discord starting: {"releaseChannel":"stable","version":"0.0.119"}, modulepath: /home/user/.config/discord/0.0.119/modules
+1/1/2026, 9:11:17 PM GMT+3 12: window.close win2
+1/1/2026, 10:12:45 PM GMT+3 0: 
+
+----------------------------------------------
+1/1/2026, 10:12:45 PM GMT+3 1: Discord starting: {"releaseChannel":"stable","version":"0.0.119"}, modulepath: /home/user/.config/discord/0.0.119/modules
+1/1/2026, 10:18:10 PM GMT+3 13: window.close win2
+1/1/2026, 10:18:15 PM GMT+3 0: 
+
+----------------------------------------------
+1/1/2026, 10:18:15 PM GMT+3 1: Discord starting: {"releaseChannel":"stable","version":"0.0.119"}, modulepath: /home/user/.config/discord/0.0.119/modules
+1/1/2026, 10:19:32 PM GMT+3 14: window.close win2
+1/1/2026, 10:58:45 PM GMT+3 15: window.close win2
+1/1/2026, 11:02:53 PM GMT+3 16: before-quit
+1/1/2026, 11:02:53 PM GMT+3 17: window.close win2
+1/1/2026, 11:02:53 PM GMT+3 18: webContents.destroyed web2
+1/1/2026, 11:02:53 PM GMT+3 19: window.closed win2

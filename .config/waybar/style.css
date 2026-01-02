@@ -1,0 +1,164 @@
+@import "Colors/Mocha.css";
+
+/* Global styles */
+* {
+  border: none;
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 14pt;
+  min-height: 0;
+  transition: none;
+}
+
+
+window#waybar {
+  background: transparent;
+  color: @text;
+}
+
+tooltip {
+  border: 0px solid @text;
+  border-radius: 0;
+  opacity: 0.8;
+  background: @surface0;
+  
+
+}
+
+  /* background-image: url("./FortunaChan.png"); */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: contain; */
+
+/*
+#############
+### Right ###
+#############
+ */
+
+#workspaces {
+  padding-left: 10px;
+  padding-right: 10px;
+  background: @base;
+  border-radius: 20px;
+}
+
+#workspaces button {
+  border-radius: 20px;
+  padding: 0px 5px;
+  margin-left: 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background: @surface0;
+  color: @surface0;
+}
+
+#workspaces button.active {
+  color: @surface0;
+  background: @green;
+  border-radius: 20px;
+  padding-left: 15pt;
+  padding-right: 15pt;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  /* border-bottom: 2pt solid @green; */
+}
+
+
+
+
+/*
+##############
+org.gnome.Terminal.desktop
+### Center ###
+##############
+ */
+#cpu {
+  padding: 0 5px;
+  padding-left: 10px;
+  color: @red;
+  background: @base;
+  border-radius: 20px 0px 0px 20px;
+}
+
+
+#clock {
+  padding: 0px 5px;
+  color: @blue;
+  background: @base;
+}
+
+#memory {
+  padding: 0px 5px;
+  padding-right: 10px;
+  color: @green;
+  background: @base;
+  border-radius: 0 20px 20px 0;
+}
+
+/*
+#############
+### Right ###
+#############
+ */
+
+#custom-colorpicker {
+  padding: 0 8pt 0 10pt;
+  color: @teal;
+  background: @base;
+  border-radius: 20px 0 0 20px;
+}
+
+#network {
+  padding: 0 5pt 0 5pt;
+  color: @blue;
+  background: @base;
+}
+
+
+#backlight {
+  padding: 0 10px 0 10px;
+  color: @yellow;
+  background: @base;
+}
+
+#pulseaudio {
+  padding-left: 5px;
+  padding-right: 10px;
+  color: @green;
+  background: @base;
+}
+
+#battery {
+  padding: 0 8pt 0 10px;
+  margin: 0;
+  color: @lavender;
+  background: @base;
+}
+
+#language {
+  padding: 0 10px 0 5px;
+  color: @green;
+  background: @base;
+}
+
+#tray {
+  padding: 0 5px;
+  background: @base;
+}
+
+#custom-powermenu {
+  padding-right: 15px;
+  padding-left: 5px;
+  margin: 0 0px 0 0px;
+  color: @red;
+  background: @base;
+  border-radius: 0 20px 20px 0;
+}
+
+#tray menu {
+  background: @surface0;
+  color: @text;
+  opacity: 0.8;
+  border-radius: 0;
+  border: 0px solid @text;
+}
