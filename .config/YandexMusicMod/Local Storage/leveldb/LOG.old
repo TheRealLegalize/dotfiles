@@ -1,3 +1,6 @@
-2026/01/03-11:22:47.903 cd3 Reusing MANIFEST /home/user/.config/YandexMusicMod/Local Storage/leveldb/MANIFEST-000001
-2026/01/03-11:22:47.903 cd3 Recovering log #36
-2026/01/03-11:22:47.905 cd3 Reusing old log /home/user/.config/YandexMusicMod/Local Storage/leveldb/000036.log 
+2026/01/03-16:13:07.582 b139 Reusing MANIFEST /home/user/.config/YandexMusicMod/Local Storage/leveldb/MANIFEST-000001
+2026/01/03-16:13:07.586 b139 Recovering log #36
+2026/01/03-16:13:07.586 b139 Reusing old log /home/user/.config/YandexMusicMod/Local Storage/leveldb/000036.log 
+2026/01/03-18:25:04.195 b13a Level-0 table #40: started
+2026/01/03-18:25:04.218 b13a Level-0 table #40: 10958 bytes OK
+2026/01/03-18:25:04.226 b13a Delete type=0 #36

@@ -50,7 +50,7 @@ main() {
     # or in the plugin's features
     if [[ $theme == mocha ]]; then
 
-        thm_base="#1e1e2e";
+        thm_base="default";
         thm_surface="#313244";
         thm_overlay="#6c7086";
         thm_muted="#a6adc8";

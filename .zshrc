@@ -37,6 +37,7 @@ alias py="python"
 alias toPng="~/.bin/toPng"
 alias venc='sh -c "$(curl -sS https://vencord.dev/install.sh)"'
 alias s="stow ."
+alias t='tmux attach -t 0 || tmux new -s 0'
 
 # --- HISTORY ---
 HISTSIZE=50000

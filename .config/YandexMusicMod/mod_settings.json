@@ -1,4 +1,7 @@
 {
   "downloadFolderPath": "/home/user/Mysic",
-  "font-changer/font": "JetBrains Mono"
+  "font-changer/font": "JetBrains Mono",
+  "devtools/systemToolbar": true,
+  "devtools/enabled": true,
+  "settings/exeptionsCaptureEnabled": false
 }
