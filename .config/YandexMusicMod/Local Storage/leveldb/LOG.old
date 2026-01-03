@@ -1,3 +1,15 @@
-2026/01/01-11:57:51.316 14cc5 Reusing MANIFEST /home/user/.config/YandexMusicMod/Local Storage/leveldb/MANIFEST-000001
-2026/01/01-11:57:51.317 14cc5 Recovering log #29
-2026/01/01-11:57:51.318 14cc5 Reusing old log /home/user/.config/YandexMusicMod/Local Storage/leveldb/000029.log 
+2026/01/02-14:02:13.507 796d Reusing MANIFEST /home/user/.config/YandexMusicMod/Local Storage/leveldb/MANIFEST-000001
+2026/01/02-14:02:13.509 796d Recovering log #29
+2026/01/02-14:02:13.510 796d Reusing old log /home/user/.config/YandexMusicMod/Local Storage/leveldb/000029.log 
+2026/01/02-14:09:14.088 796e Level-0 table #33: started
+2026/01/02-14:09:14.092 796e Level-0 table #33: 10990 bytes OK
+2026/01/02-14:09:14.094 796e Delete type=0 #29
+2026/01/02-14:09:14.094 796e Compacting 4@0 + 1@1 files
+2026/01/02-14:09:14.096 796e Generated table #34@0: 18 keys, 1184 bytes
+2026/01/02-14:09:14.096 796e Compacted 4@0 + 1@1 files => 1184 bytes
+2026/01/02-14:09:14.097 796e compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/01/02-14:09:14.097 796e Delete type=2 #21
+2026/01/02-14:09:14.097 796e Delete type=2 #24
+2026/01/02-14:09:14.097 796e Delete type=2 #27
+2026/01/02-14:09:14.097 796e Delete type=2 #30
+2026/01/02-14:09:14.097 796e Delete type=2 #33
