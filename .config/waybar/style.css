@@ -11,7 +11,8 @@
 
 
 window#waybar {
-  background: transparent;
+  background: @base;
+  border-radius: 0;
   color: @text;
 }
 

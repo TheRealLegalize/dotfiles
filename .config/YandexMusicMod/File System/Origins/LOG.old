@@ -1,3 +1,2 @@
-2026/01/02-14:02:14.587 796e Reusing MANIFEST /home/user/.config/YandexMusicMod/File System/Origins/MANIFEST-000001
-2026/01/02-14:02:14.587 796e Recovering log #3
-2026/01/02-14:02:14.587 796e Reusing old log /home/user/.config/YandexMusicMod/File System/Origins/000003.log 
+2026/01/03-00:15:30.524 2b830 Creating DB /home/user/.config/YandexMusicMod/File System/Origins since it was missing.
+2026/01/03-00:15:30.576 2b830 Reusing MANIFEST /home/user/.config/YandexMusicMod/File System/Origins/MANIFEST-000001

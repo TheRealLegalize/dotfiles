@@ -1,3 +1,3 @@
-2026/01/02-16:37:28.249 fdf2 Reusing MANIFEST /home/user/.config/YandexMusicMod/IndexedDB/music-application_desktop_0.indexeddb.leveldb/MANIFEST-000001
-2026/01/02-16:37:28.249 fdf2 Recovering log #3
-2026/01/02-16:37:28.254 fdf2 Reusing old log /home/user/.config/YandexMusicMod/IndexedDB/music-application_desktop_0.indexeddb.leveldb/000003.log 
+2026/01/03-11:22:49.420 d04 Reusing MANIFEST /home/user/.config/YandexMusicMod/IndexedDB/music-application_desktop_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/03-11:22:49.420 d04 Recovering log #3
+2026/01/03-11:22:49.425 d04 Reusing old log /home/user/.config/YandexMusicMod/IndexedDB/music-application_desktop_0.indexeddb.leveldb/000003.log 
