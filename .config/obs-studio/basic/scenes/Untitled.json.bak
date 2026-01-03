@@ -166,7 +166,7 @@
             "id": "pipewire-screen-capture-source",
             "versioned_id": "pipewire-screen-capture-source",
             "settings": {
-                "RestoreToken": ""
+                "RestoreToken": "cf1a215b-8ff9-44af-a04f-eb33017b97ce"
             },
             "mixers": 0,
             "sync": 0,

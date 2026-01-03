@@ -9,157 +9,107 @@
   transition: none;
 }
 
-
 window#waybar {
-  background: @base;
+  background: transparent;
   border-radius: 0;
   color: @text;
 }
 
 tooltip {
-  border: 0px solid @text;
-  border-radius: 0;
-  opacity: 0.8;
+  border: 1px solid @surface1;
+  border-radius: 8px;
   background: @surface0;
-  
-
 }
 
-  /* background-image: url("./FortunaChan.png"); */
-  /* background-position: center; */
-  /* background-repeat: no-repeat; */
-  /* background-size: contain; */
-
-/*
-#############
-### Right ###
-#############
- */
+/* Left */
 
 #workspaces {
-  padding-left: 10px;
-  padding-right: 10px;
-  background: @base;
-  border-radius: 20px;
+    background-color: @base;
+    margin: 4px 8px;
+    padding: 2px 4px;
+    border-radius: 16px;
+    border: 1px solid @surface1;
 }
 
 #workspaces button {
-  border-radius: 20px;
-  padding: 0px 5px;
-  margin-left: 10px;
-  margin-top: 8px;
-  margin-bottom: 8px;
-  background: @surface0;
-  color: @surface0;
+    padding: 0px 10px;
+    margin: 2px 2px;
+    color: @base;
+    background-color: transparent;
+    border-radius: 12px;
+    transition: all 0.3s ease;
 }
 
 #workspaces button.active {
-  color: @surface0;
-  background: @green;
-  border-radius: 20px;
-  padding-left: 15pt;
-  padding-right: 15pt;
-  margin-top: 8px;
-  margin-bottom: 8px;
-  /* border-bottom: 2pt solid @green; */
+    color: @base;
+    background: linear-gradient(45deg, @green, @teal);
+    box-shadow: 0 0 10px @green;
+    min-width: 40px; 
 }
 
+#workspaces button:hover {
+    color: @text;
+    background-color: @surface2;
+    box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.1);
+}
 
+/* Center */
 
-
-/*
-##############
-org.gnome.Terminal.desktop
-### Center ###
-##############
- */
 #cpu {
-  padding: 0 5px;
-  padding-left: 10px;
+  padding: 0 5px 0 10px;
   color: @red;
   background: @base;
   border-radius: 20px 0px 0px 20px;
+  border: 1px solid @surface1;
+  border-right: none;
 }
-
 
 #clock {
   padding: 0px 5px;
   color: @blue;
   background: @base;
+  border-top: 1px solid @surface1;
+  border-bottom: 1px solid @surface1;
 }
 
 #memory {
-  padding: 0px 5px;
-  padding-right: 10px;
+  padding: 0 10px 0 5px;
   color: @green;
   background: @base;
   border-radius: 0 20px 20px 0;
+  border: 1px solid @surface1;
+  border-left: none;
 }
 
-/*
-#############
-### Right ###
-#############
- */
+/* Right */
 
 #custom-colorpicker {
   padding: 0 8pt 0 10pt;
   color: @teal;
   background: @base;
   border-radius: 20px 0 0 20px;
+  border: 1px solid @surface1;
+  border-right: none;
 }
 
-#network {
-  padding: 0 5pt 0 5pt;
-  color: @blue;
+#network, #backlight, #pulseaudio, #battery, #language, #tray {
+  padding: 0 10px;
   background: @base;
-}
-
-
-#backlight {
-  padding: 0 10px 0 10px;
-  color: @yellow;
-  background: @base;
-}
-
-#pulseaudio {
-  padding-left: 5px;
-  padding-right: 10px;
-  color: @green;
-  background: @base;
-}
-
-#battery {
-  padding: 0 8pt 0 10px;
-  margin: 0;
-  color: @lavender;
-  background: @base;
-}
-
-#language {
-  padding: 0 10px 0 5px;
-  color: @green;
-  background: @base;
-}
-
-#tray {
-  padding: 0 5px;
-  background: @base;
+  border-top: 1px solid @surface1;
+  border-bottom: 1px solid @surface1;
 }
 
 #custom-powermenu {
-  padding-right: 15px;
-  padding-left: 5px;
-  margin: 0 0px 0 0px;
+  padding: 0 15px 0 5px;
   color: @red;
   background: @base;
   border-radius: 0 20px 20px 0;
+  border: 1px solid @surface1;
+  border-left: none;
 }
 
 #tray menu {
   background: @surface0;
   color: @text;
-  opacity: 0.8;
-  border-radius: 0;
-  border: 0px solid @text;
+  border: 1px solid @surface1;
 }
