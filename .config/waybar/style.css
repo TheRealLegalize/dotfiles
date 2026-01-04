@@ -92,6 +92,26 @@ tooltip {
   border-right: none;
 }
 
+#network {
+  color: @blue;
+}
+
+#backlight {
+  color: @yellow;
+}
+
+#pulseaudio {
+  color: @green;
+}
+
+#battery {
+  color: @blue;
+}
+
+#language {
+  color: @green;
+}
+
 #network, #backlight, #pulseaudio, #battery, #language, #tray {
   padding: 0 10px;
   background: @base;
